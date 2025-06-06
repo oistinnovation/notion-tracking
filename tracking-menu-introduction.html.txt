@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Notion Tracking Introduction to OIST Network</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-JL8G6ZPRH9');
+    </script>
+  </head>
+  <body>
+    <p>Introduction</p>
+  </body>
+</html>
