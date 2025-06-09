@@ -5,17 +5,22 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JL8G6ZPRH9"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag(){ dataLayer.push(arguments); }
       gtag('js', new Date());
       gtag('config', 'G-JL8G6ZPRH9');
     </script>
   </head>
   <body>
-    <p>Menu-Introduction</p>
+    <p>Menu - Introduction</p>
+
     <script>
-    window.addEventListener('load', function() {
-      gtag('event', 'notion_iframe_loaded');
-    });
+      window.addEventListener('load', function () {
+        gtag('event', 'notion_iframe_loaded', {
+          event_category: 'notion_embed',
+          event_label: 'Introduction to OIST Network',
+          value: 1
+        });
+      });
     </script>
   </body>
 </html>
