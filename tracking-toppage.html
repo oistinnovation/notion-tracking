@@ -10,12 +10,7 @@
       gtag('config', 'G-JL8G6ZPRH9');
     </script>
   </head>
-  <body>
-  <p>Top Page</p>
-  <script>
-    window.addEventListener('load', function() {
-      gtag('event', 'notion_iframe_loaded');
-    });
-  </script>
+  <body onload="gtag('event', 'notion_iframe_loaded')">
+    <p>Top Page</p>
   </body>
 </html>
