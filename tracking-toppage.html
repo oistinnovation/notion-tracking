@@ -13,7 +13,9 @@
   <body>
   <p>Top Page</p>
   <script>
-    gtag('event', 'notion_iframe_loaded');
+    window.addEventListener('load', function() {
+      gtag('event', 'notion_iframe_loaded');
+    });
   </script>
   </body>
 </html>
